@@ -8,7 +8,6 @@ import path from "path";
 import { connectDB } from "./lib/db.js"
 import authRoutes from "./routes/auth.route.js";
 import messageRoutes from "./routes/message.route.js";
-import User from "./models/user.model.js";
 import { app, server } from "./lib/socket.js"
 
 dontenv.config();
@@ -35,9 +34,6 @@ if (process.env.NODE_ENV === "production") {
     });
 }
 
-
-
-app.use("/api/user", User);
 
 server.listen(PORT, () => {
     console.log("server is running on PORT:" + PORT)
