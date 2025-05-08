@@ -18,10 +18,21 @@ const __dirname = path.resolve();
 
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({
-    origin: "http://localhost:5173",
+const allowedOrigins = [
+    "http://localhost:5173/",
+    "https://chatrix-fullstack-chat-app.onrender.com"
+  ];
+  
+  app.use(cors({
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
     credentials: true,
-}));
+  }));
 
 app.use("/api/auth", authRoutes)
 app.use("/api/messages", messageRoutes)
