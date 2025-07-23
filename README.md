@@ -100,6 +100,10 @@ Push to your branch (git push origin feat/my-feature)
 Open a pull request describing your changes
 
 
+📄 License
+MIT © Neeraj Kumar
+
+
 
 
 
