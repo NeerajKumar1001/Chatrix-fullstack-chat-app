@@ -2,6 +2,8 @@
 
 A modern, full‑stack real‑time chat application built with React, Zustand, Tailwind CSS, Node.js, Express, MongoDB, and Socket.io.
 
+Preview:- https://chatrix-fullstack-chat-app.onrender.com/
+
 ---
 
 ## 🧩 Features
