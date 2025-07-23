@@ -33,33 +33,37 @@ A modern, full‑stack real‑time chat application built with React, Zustand, T
 ```bash
 git clone https://github.com/NeerajKumar1001/Chatrix-fullstack-chat-app.git
 cd Chatrix-fullstack-chat-app
+```
 2. Backend setup
-bash
-Copy
-Edit
-cd Backend
-npm install
-Create a .env file with:
+  ```bash   
+  cd Backend
+  npm instal
+  ```
+  Create a .env file with:
+  ```bash
+  MONGODB_URI=your_mongodb_connection_string
+  JWT_SECRET=your_jwt_secret
+  PORT=5000
+  ```
+  Then start the backend:
+  ```bash
+  npm run dev
+  ```
 
-env
-Copy
-Edit
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-PORT=5000
-Then start the backend:
-
-bash
-Copy
-Edit
-npm run dev
 3. Frontend setup
-bash
+ ```bash
+   cd ../Frontend
+   npm install
+   npm start
+   ```
+
+📄 License
+MIT © Neeraj Kumar
+
+vbnet
 Copy
 Edit
-cd ../Frontend
-npm install
-npm start
-Your frontend should now be running at http://localhost:3000, communicating with the backend.
+
+
 
 
