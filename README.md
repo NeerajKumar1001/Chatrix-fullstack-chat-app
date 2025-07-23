@@ -57,12 +57,49 @@ cd Chatrix-fullstack-chat-app
    npm start
    ```
 
-📄 License
-MIT © Neeraj Kumar
+💡 Folder Structure
+```bash
+/Backend
+  ├── controllers/
+  ├── models/
+  ├── routes/
+  ├── middlewares/
+  └── server.js
 
-vbnet
-Copy
-Edit
+/Frontend
+  ├── src/
+      ├── components/
+      ├── pages/
+      ├── store/        ← Zustand state logic
+      └── App.jsx
+```
+
+🔜 Roadmap
+Group chat support
+
+File/image/video sharing
+
+Read receipts and ability to edit/delete messages
+
+Deployment scripts (Heroku, AWS, etc.)
+
+Tests: Unit, integration, and E2E
+
+
+🤝 Contributing
+Contributions are welcome:
+
+Fork the repository
+
+Create a feature branch (git checkout -b feat/my-feature)
+
+Commit your changes (git commit -m "feat: My feature")
+
+Push to your branch (git push origin feat/my-feature)
+
+Open a pull request describing your changes
+
+
 
 
 
