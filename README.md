@@ -88,18 +88,6 @@ Deployment scripts (Heroku, AWS, etc.)
 Tests: Unit, integration, and E2E
 
 
-🤝 Contributing
-Contributions are welcome:
-
-Fork the repository
-
-Create a feature branch (git checkout -b feat/my-feature)
-
-Commit your changes (git commit -m "feat: My feature")
-
-Push to your branch (git push origin feat/my-feature)
-
-Open a pull request describing your changes
 
 
 📄 License
